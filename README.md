@@ -5,3 +5,4 @@
 ** 运行roslaunch mbot_description display_mbot_base_urdf.launch，这是一个没有添加传感器的小车模型。另外有一个display_mbot_with_kinect_urdf.launch这个文件，是添加了kinect传感器的模型，这个模型是通过加载kinect相关的纹理，来实现跟现实中的kinect传感器相同的模型
 * launch中的xacro当中有比较多的包，不过基本上都与urdf的类似
 ** 运行方式跟上面一样，都是通过launch相关的包，就能够看到装有不同传感器小车的模型
+#### 之后会提供相关的gazebo包，用于在gazebo环境下实现机器人模型的显示
